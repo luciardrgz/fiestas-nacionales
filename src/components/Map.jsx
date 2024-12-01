@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import { festivals } from "@/utils/arrays";
+import { getIconUrlForCategory } from "@/utils/functions";
 
 const Map = ({ month, province }) => {
   const [filteredFestivals, setFilteredFestivals] = useState([]);
+
   useEffect(() => {
     const applyFilters = () => {
       const filtered = festivals
@@ -12,38 +14,31 @@ const Map = ({ month, province }) => {
           const monthMatch = month
             ? festival.month.toLowerCase() === month.toLowerCase()
             : true;
-  
+
           return monthMatch;
         })
-        .flatMap((festival) => festival.festivals) 
-  
+        .flatMap((festival) => festival.festivals)
+
         .filter((festival) => {
           const provinceMatch = province
             ? festival.location.toLowerCase().includes(province.toLowerCase())
             : true;
           return provinceMatch;
         });
-  
+
       setFilteredFestivals(filtered);
     };
-  
-    applyFilters();
-  }, [month, province]); 
-  
 
-  const customIcon = new L.Icon({
-    iconUrl:
-      "https://cdn.pixabay.com/photo/2017/08/26/10/17/location-2682655_1280.png",
-    iconSize: [25, 41],
-    iconAnchor: [12, 41], // icono donde se ancla al mapa
-    popupAnchor: [1, -34], // apertura popup
-  });
+    applyFilters();
+  }, [month, province]);
+
+  
 
   return (
     <MapContainer
       center={[-38.4161, -63.6167]}
       zoom={5}
-      style={{ height: "80vh", width: "100%", marginBottom: "8rem" }}
+      style={{ height: "80vh", width: "100%" }}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -54,12 +49,18 @@ const Map = ({ month, province }) => {
         const [lat, lng] = festival.coordinates.split(",").map(Number);
 
         if (isNaN(lat) || isNaN(lng)) {
-          console.error(
-            "Coordinadas inválidas para el festival:",
-            festival.name
-          );
+          console.error("Coordinadas inválidas para el festival:", festival.name);
           return null;
         }
+
+        const iconUrl = getIconUrlForCategory(festival.category);
+
+        const customIcon = new L.Icon({
+          iconUrl: iconUrl,
+          iconSize: [25, 25],
+          iconAnchor: [12, 41],
+          popupAnchor: [1, -34],
+        });
 
         return (
           <Marker key={index} position={[lat, lng]} icon={customIcon}>
@@ -70,9 +71,7 @@ const Map = ({ month, province }) => {
               <br />
               {festival.location}
               <br />
-              <a
-                href={`https://www.google.com/maps/search/?api=1&query=${lat},${lng}`}
-              >
+              <a href={`https://www.google.com/maps/search/?api=1&query=${lat},${lng}`}>
                 Cómo llegar
               </a>
             </Popup>
