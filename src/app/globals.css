@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 @import "leaflet/dist/leaflet.css";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: "Parkinsans";
+  src: url("./fonts/Parkinsans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Parkinsans", sans-serif;
   position: relative;
 }
 

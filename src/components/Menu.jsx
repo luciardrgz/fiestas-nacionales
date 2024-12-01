@@ -18,13 +18,13 @@ const Menu = ({ onMonthSelect, onProvinceSelect }) => {
   };
 
   return (
-    <div className="flex items-center justify-center py-5 gap-2 sm:gap-11 bg-white mx-auto">
-      <div className="">
-        <p>Seleccioná un mes</p>
+    <div className="flex items-center justify-center py-5 gap-2 sm:gap-11">
+      <div className="bg-[#6CACE4] rounded-lg p-4">
+        <p className="max-sm:text-[0.9rem] text-white">Seleccioná mes</p>
         <select
           value={selectedMonth}
           onChange={handleMonthSelect}
-          className="border border-gray-300 p-2 rounded"
+          className="border border-gray-300 p-2 rounded w-[100%]"
         >
           <option value="">Todos los meses</option>
           {months.map((mes, index) => (
@@ -35,12 +35,12 @@ const Menu = ({ onMonthSelect, onProvinceSelect }) => {
         </select>
       </div>{" "}
 
-      <div className="">
-        <p>Seleccioná una provincia</p>
+      <div className="bg-[#6CACE4] rounded-lg p-4">
+        <p className="max-sm:text-[0.9rem] text-white">Seleccioná provincia</p>
         <select
           value={selectedProv}
           onChange={handleProvSelect}
-          className="border border-gray-300 p-2 rounded"
+          className="border border-gray-300 p-2 rounded w-[100%]"
         >
           {" "}
           <option value="">Todas las provincias</option>
