@@ -3,7 +3,6 @@ import dynamic from 'next/dynamic';
 const Map = dynamic(() => import('@/components/Map'), { ssr: false });
 import Menu from "@/components/Menu";
 import { useState } from "react";
-import Map from '@/components/Map';
 
 export default function Home() {
   const [selectedMonth, setSelectedMonth] = useState(null);
