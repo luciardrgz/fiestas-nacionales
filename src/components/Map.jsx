@@ -4,7 +4,7 @@ import L from "leaflet";
 import { festivals } from "@/utils/arrays";
 import { getIconUrlForCategory } from "@/utils/functions";
 
-const Map = ({ month, province }) => {
+const Map = ({ month, province, categories }) => {
   const [filteredFestivals, setFilteredFestivals] = useState([]);
 
   useEffect(() => {
@@ -18,21 +18,22 @@ const Map = ({ month, province }) => {
           return monthMatch;
         })
         .flatMap((festival) => festival.festivals)
-
         .filter((festival) => {
           const provinceMatch = province
             ? festival.location.toLowerCase().includes(province.toLowerCase())
             : true;
           return provinceMatch;
+        })
+        .filter((festival) => {
+          if (categories.length === 0) return true; // Si no hay categorías seleccionadas, mostrar todo
+          return categories.includes(festival.category);
         });
 
       setFilteredFestivals(filtered);
     };
 
     applyFilters();
-  }, [month, province]);
-
-  
+  }, [month, province, categories]);
 
   return (
     <MapContainer

@@ -55,7 +55,7 @@ export const festivals = [
         name: "Feria Nacional de la Cereza",
         location: "Los Antiguos, Santa Cruz",
         coordinates: "-46.5500, -71.6167",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Enero"
       },
       {
@@ -76,14 +76,14 @@ export const festivals = [
         name: "Fiesta Nacional del Girasol",
         location: "Carlos Casares, Buenos Aires",
         coordinates: "-35.6167, -61.3667",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Enero"
       },
       {
         name: "Fiesta Nacional de la Cebada Cervecera",
         location: "Puan, Buenos Aires",
         coordinates: "-37.5333, -62.7667",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Enero"
       },
       {
@@ -118,7 +118,7 @@ export const festivals = [
         name: "Fiesta Nacional del Oro Blanco",
         location: "Canals, Córdoba",
         coordinates: "-33.5667, -62.8833",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Enero"
       },
       {
@@ -160,7 +160,7 @@ export const festivals = [
         name: "Fiesta Nacional del Lino",
         location: "Lucas González, Entre Ríos",
         coordinates: "-32.3833, -59.5333",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Enero"
       },
       {
@@ -181,7 +181,7 @@ export const festivals = [
         name: "Fiesta Nacional de la Fruta Fina",
         location: "El Hoyo, Chubut",
         coordinates: "-42.0500, -71.5167",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Enero"
       },
       {
@@ -209,7 +209,7 @@ export const festivals = [
         name: "Festival Nacional de la Papa",
         location: "Villa Dolores, Córdoba",
         coordinates: "-31.9500, -65.1833",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Enero"
       },
       {
@@ -244,7 +244,7 @@ export const festivals = [
         name: "Fiesta Nacional del Trigo y el Pan",
         location: "Eduardo Castex, La Pampa",
         coordinates: "-35.9167, -64.2833",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Enero"
       },
       {
@@ -314,14 +314,14 @@ export const festivals = [
         name: "Festival Nacional de la Nuez",
         location: "Mutquin, Catamarca",
         coordinates: "-28.3167, -66.1667",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Enero"
       },
       {
         name: "Fiesta Nacional de la Pera",
         location: "Allen, Rio Negro",
         coordinates: "-38.9667, -67.8333",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Enero"
       },
       {
@@ -361,7 +361,7 @@ export const festivals = [
         name: "Fiesta Nacional del Tambo",
         location: "James Craik, Córdoba",
         coordinates: "-32.1667, -63.4667",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Febrero"
       },
       {
@@ -382,7 +382,7 @@ export const festivals = [
         name: "Fiesta Nacional del Olivo",
         location: "Cruz del Eje, Córdoba",
         coordinates: "-30.7222, -64.8056",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Febrero"
       },
       {
@@ -424,7 +424,7 @@ export const festivals = [
         name: "Fiesta Nacional del Trigo",
         location: "Leones, Córdoba",
         coordinates: "-32.6667, -62.3000",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Febrero"
       },
       {
@@ -445,14 +445,14 @@ export const festivals = [
         name: "Fiesta Nacional del Tabaco",
         location: "Goya, Corrientes",
         coordinates: "-29.1333, -59.2667",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Febrero"
       },
       {
         name: "Fiesta Nacional de la Frutihorticultura",
         location: "Colonia Caroya, Córdoba",
         coordinates: "-31.0167, -64.0667",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Febrero"
       },
       {
@@ -529,14 +529,14 @@ export const festivals = [
         name: "Fiesta Nacional del Té",
         location: "Campo Viera, Misiones",
         coordinates: "-27.3833, -55.0333",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Febrero"
       },
       {
         name: "Fiesta Nacional de la Manzana",
         location: "General Roca, Río Negro",
         coordinates: "-39.0333, -67.5833",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Febrero"
       },
       {
@@ -592,7 +592,7 @@ export const festivals = [
         name: "Fiesta Nacional de la Pera",
         location: "Allen, Río Negro",
         coordinates: "-38.9667, -67.8333",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Febrero"
       },
       {
@@ -627,7 +627,7 @@ export const festivals = [
         name: "Fiesta Nacional del Lúpulo",
         location: "El Bolsón, Río Negro",
         coordinates: "-41.9667, -71.5167",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Febrero"
       },
       {
@@ -683,7 +683,7 @@ export const festivals = [
         name: "Fiesta Nacional del Melón, la Agricultura y la Producción",
         location: "Candelaria, San Luis",
         coordinates: "-32.0667, -65.8333",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Febrero"
       },
       {
@@ -718,7 +718,7 @@ export const festivals = [
         name: "Fiesta Nacional de la Lana",
         location: "Maquinchao, Río Negro",
         coordinates: "-41.2500, -68.7000",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Febrero"
       },
       {
@@ -746,7 +746,7 @@ export const festivals = [
         name: "Fiesta Nacional de la Ganadería del Oeste Pampeano",
         location: "Victorica, La Pampa",
         coordinates: "-36.2167, -65.4333",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Febrero"
       },
       {
@@ -828,7 +828,7 @@ export const festivals = [
         name: "Fiesta Nacional dela Manzanilla",
         location: "Pehuajó, Buenos Aires",
         coordinates: "-35.8167, -61.9000",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Marzo"
       },
       {
@@ -884,7 +884,7 @@ export const festivals = [
         name: "Fiesta Nacional del Tomate y la Producción",
         location: "Lamarque, Río Negro",
         coordinates: "-39.4167, -65.7000",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Marzo"
       },
       {
@@ -905,7 +905,7 @@ export const festivals = [
         name: "Fiesta Nacional del Ajo",
         location: "Médanos, Buenos Aires",
         coordinates: "-38.8167, -62.6833",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Marzo"
       },
       {
@@ -980,14 +980,14 @@ export const festivals = [
         name: "Fiesta Nacional de la Apicultura",
         location: "Maciá, Entre Ríos",
         coordinates: "-32.1667, -59.4000",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Abril"
       },
       {
         name: "Fiesta Nacional de la Alfalfa",
         location: "San Basilio, Córdoba",
         coordinates: "-33.5000, -64.3333",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Abril"
       },
       {
@@ -1027,7 +1027,7 @@ export const festivals = [
         name: "Fiesta Nacional de la Ganadería de Zonas Áridas",
         location: "General Alvear, Mendoza",
         coordinates: "-34.9667, -67.6833",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Mayo"
       },
       {
@@ -1048,21 +1048,21 @@ export const festivals = [
         name: "Fiesta Nacional de la Mandarina",
         location: "Chumbicha, Catamarca",
         coordinates: "-28.8667, -66.2333",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Mayo"
       },
       {
         name: "Fiesta Nacional de la Olivicultura",
         location: "Aimogasta, La Rioja",
         coordinates: "-28.5667, -66.8000",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Mayo"
       },
       {
         name: "Fiesta Nacional del Algodón",
         location: "Presidencia Roque Sáenz Peña, Chaco",
         coordinates: "-26.7833, -60.4500",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Mayo"
       },
       {
@@ -1083,7 +1083,7 @@ export const festivals = [
         name: "Fiesta Nacional del Kiwi",
         location: "General Juan Madariaga, Buenos Aires",
         coordinates: "-37.1500, -57.1333",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Mayo"
       },
       {
@@ -1137,14 +1137,14 @@ export const festivals = [
         name: "Fiesta Nacional de la Miel",
         location: "Azul, Buenos Aires",
         coordinates: "-36.7833, -59.8500",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Junio"
       },
       {
         name: "Fiesta Nacional del Zapallo",
         location: "Ceres, Santa Fe",
         coordinates: "-29.8833, -61.9500",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Junio"
       },
       {
@@ -1163,7 +1163,7 @@ export const festivals = [
         name: "Fiesta Nacional del Pomelo",
         location: "Laguna Blanca, Formosa",
         coordinates: "-25.1167, -58.2500",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Julio"
       },
       {
@@ -1191,7 +1191,7 @@ export const festivals = [
         name: "Festival Nacional del Tomate",
         location: "Fraile Pintado, Jujuy",
         coordinates: "-23.9500, -64.8000",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Julio"
       },
       {
@@ -1233,14 +1233,14 @@ export const festivals = [
         name: "Fiesta Nacional del Maíz y la Cosecha Gruesa",
         location: "Alcira Gigena, Córdoba",
         coordinates: "-32.7500, -64.3667",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Julio"
       },
       {
         name: "Fiesta Nacional del Pimiento",
         location: "Payogasta, Salta",
         coordinates: "-25.0333,-65.5167",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Julio"
       },
       {
@@ -1287,7 +1287,7 @@ export const festivals = [
         name: "Fiesta Nacional del Maíz",
         location: "Chacabuco, Buenos Aires",
         coordinates: "-34.6333, -60.4667",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Agosto"
       },
       {
@@ -1343,7 +1343,7 @@ export const festivals = [
         name: "Fiesta Nacional de la Semilla",
         location: "Venado Tuerto, Santa Fe",
         coordinates: "-33.7500, -61.9667",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Agosto"
       },
       {
@@ -1357,7 +1357,7 @@ export const festivals = [
         name: "Fiesta Nacional del Productor Agropecuario",
         location: "Despeñaderos, Córdoba",
         coordinates: "-31.8167, -64.2833",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Agosto"
       },
       {
@@ -1397,7 +1397,7 @@ export const festivals = [
         name: "Fiesta Nacional de la Agricultura",
         location: "Esperanza, Santa Fe",
         coordinates: "-31.4500, -60.9333",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Septiembre"
       },
       {
@@ -1411,7 +1411,7 @@ export const festivals = [
         name: "Fiesta Nacional de la Flor",
         location: "Belén de Escobar, Buenos Aires",
         coordinates: "-34.3500, -58.7833",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Septiembre"
       },
       {
@@ -1439,21 +1439,21 @@ export const festivals = [
         name: "Fiesta Nacional de la Cosechadora",
         location: "San Vicente, Santa Fe",
         coordinates: "-31.7000, -61.5667",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Septiembre"
       },
       {
         name: "Fiesta Nacional del Agricultor",
         location: "Sampacho, Córdoba",
         coordinates: "-33.3833, -64.7167",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Septiembre"
       },
       {
         name: "Fiesta Nacional del Ave de Raza",
         location: "Rauch, Buenos Aires",
         coordinates: "-36.7667, -59.0833",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Septiembre"
       },
       {
@@ -1481,14 +1481,14 @@ export const festivals = [
         name: "Fiesta Nacional de la Siembra Directa",
         location: "Monte Buey, Córdoba",
         coordinates: "-32.9167, -62.4500",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Septiembre"
       },
       {
         name: "Fiesta Nacional del Oro Dulce",
         location: "Casilda, Santa Fe",
         coordinates: "-33.0500, -61.1667",
-        category: "Agrícola",
+        category: "Agricultura",
         date: "Septiembre"
       },
       {
@@ -1535,7 +1535,7 @@ export const festivals = [
         name: "Fiesta Nacional del Jinete y el Caballo",
         location: "Luis Beltrán, Río Negro",
         coordinates: "-39.3167, -65.7667",
-        category: "Tradición",
+        category: "Tradicional",
         date: "Octubre"
       },
       {
@@ -1549,7 +1549,7 @@ export const festivals = [
         name: "Fiesta Nacional del Caballo",
         location: "Bragado, Buenos Aires",
         coordinates: "-35.1167, -60.4833",
-        category: "Tradición",
+        category: "Tradicional",
         date: "Octubre"
       },
       {
@@ -1605,7 +1605,7 @@ export const festivals = [
         name: "Fiesta Nacional del Fútbol Infantil",
         location: "Sunchales, Santa Fe",
         coordinates: "-30.9333, -61.5667",
-        category: "Deporte",
+        category: "Deportivo",
         date: "Octubre"
       },
       {
@@ -1619,7 +1619,7 @@ export const festivals = [
         name: "Fiesta Nacional del Vino Torrontés",
         location: "Cafayate, Salta",
         coordinates: "-26.0733, -65.9767",
-        category: "Vitivinicultura",
+        category: "Vitivinícola",
         date: "Octubre"
       },
       {
@@ -1654,7 +1654,7 @@ export const festivals = [
         name: "Fiesta Nacional de la Carreta y los 101 Chivos",
         location: "Carpintería, San Luis",
         coordinates: "-32.3667, -65.0000",
-        category: "Tradición",
+        category: "Tradicional",
         date: "Octubre"
       },
       {
@@ -1673,7 +1673,7 @@ export const festivals = [
         name: "Fiesta Nacional de la Pelota de Fútbol",
         location: "Bell Ville, Córdoba",
         coordinates: "-32.6167, -62.6833",
-        category: "Deporte",
+        category: "Deportivo",
         date: "Noviembre"
       },
       {
@@ -1719,17 +1719,17 @@ export const festivals = [
         date: "Noviembre"
       },
       {
-        name: "Fiesta Nacional de la Tradición",
+        name: "Fiesta Nacional de la Tradicional",
         location: "San Antonio de Areco, Buenos Aires",
         coordinates: "-34.2500, -59.4667",
-        category: "Tradición",
+        category: "Tradicional",
         date: "Noviembre"
       },
       {
         name: "Fiesta Nacional de la Tradición",
         location: "San José de Jáchal, San Juan",
         coordinates: "-30.2333, -68.7500",
-        category: "Tradición",
+        category: "Tradicional",
         date: "Noviembre"
       },
       {
@@ -1764,7 +1764,7 @@ export const festivals = [
         name: "Fiesta Nacional del Caballo",
         location: "San Cristóbal, Santa Fe",
         coordinates: "-30.3167, -61.2333",
-        category: "Tradición",
+        category: "Tradicional",
         date: "Noviembre"
       },
       {
@@ -1785,7 +1785,7 @@ export const festivals = [
         name: "Fiesta Nacional del Sulky",
         location: "Simoca, Tucumán",
         coordinates: "-27.2667, -65.3500",
-        category: "Tradición",
+        category: "Tradicional",
         date: "Noviembre"
       },
       {
@@ -1820,14 +1820,14 @@ export const festivals = [
         name: "Festival Nacional del Torrontés Riojano",
         location: "Chilecito, La Rioja",
         coordinates: "-29.1667, -67.5000",
-        category: "Vitivinicultura",
+        category: "Vitivinícola",
         date: "Noviembre"
       },
       {
         name: "Fiesta Nacional del Ferroviario",
         location: "Laguna Paiva, Santa Fe",
         coordinates: "-31.3000, -60.6500",
-        category: "Tradición",
+        category: "Tradicional",
         date: "Noviembre"
       },
       {
@@ -1944,14 +1944,14 @@ export const festivals = [
         name: "Fiesta Nacional del Gaucho",
         location: "General Madariaga, Buenos Aires",
         coordinates: "-37.0000, -57.1333",
-        category: "Tradición",
+        category: "Tradicional",
         date: "Diciembre"
       },
       {
         name: "Fiesta Nacional del Petróleo",
         location: "Comodoro Rivadavia, Chubut",
         coordinates: "-45.8667, -67.5000",
-        category: "Industria",
+        category: "Industrial",
         date: "Diciembre"
       },
       {
@@ -1965,7 +1965,7 @@ export const festivals = [
         name: "Festival Nacional de Doma y Folclore",
         location: "Olavarría, Buenos Aires",
         coordinates: "-36.8833, -60.3167",
-        category: "Tradición",
+        category: "Tradicional",
         date: "Diciembre"
       },
       {
@@ -1979,7 +1979,7 @@ export const festivals = [
         name: "Festival Nacional de la Navidad Gaucha",
         location: "Oliva, Córdoba",
         coordinates: "-32.0333, -63.5667",
-        category: "Tradición",
+        category: "Tradicional",
         date: "Diciembre"
       },
       {
@@ -2040,3 +2040,27 @@ export const provinces = [
   "Tierra del Fuego", 
   "Tucumán"
 ]
+
+export const categories = [
+  "Turismo",
+  "Gastronomía",
+  "Religioso",
+  "Musical",
+  "Cultural",
+  "Pesca",
+  "Rural",
+  "Artesanía",
+  "Tradicional",
+  "Danza",
+  "Deportivo",
+  "Vitivinícola",
+  "Ganadería",
+  "Agricultura",
+  "Histórica",
+  "Industrial",
+  "Minería",
+  "Industria Láctea",
+  "Floricultura",
+  "Artístico",
+  "Apicultura"
+];
