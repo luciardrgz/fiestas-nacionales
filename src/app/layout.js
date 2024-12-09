@@ -21,11 +21,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <script
+        <script
           async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_ID}`}
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3134613298811944"
           crossorigin="anonymous"
-        ></script>F
+        ></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
